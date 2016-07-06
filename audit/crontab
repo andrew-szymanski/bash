@@ -1,0 +1,2 @@
+# gather bash history
+50 23 * * * /root/.audit_scripts/audit_history.sh 2>&1 >/dev/null
