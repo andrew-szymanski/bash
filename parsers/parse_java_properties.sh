@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# eg. ./parser.sh assets.url antx.properties
-# eg. cat antx.properties | ./parser.sh assetsServer.url
+# eg. ./parse_java_properties.sh zookeeper.connect /etc/kafka/conf/server.properties
+# eg. cat /etc/kafka/conf/server.properties | ./parse_java_properties.sh zookeeper.connect
 # https://github.com/shaoshuai0102/properties-parser
 TMPFILE=".__tmpfile$$_"
 
