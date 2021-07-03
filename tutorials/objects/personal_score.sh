@@ -8,11 +8,11 @@ andrew () {
   local cmd="$1"
   case "${cmd}" in
     "add_score")
-    points="$2"
-    echo "   adding [${points}] points to ${name}..."
-    [ -n "${score}" ] || score=0
-    score=$(( ${score} + ${points} ))
-    ;;
+      points="$2"
+      echo "   adding [${points}] points to ${name}..."
+      [ -n "${score}" ] || score=0
+      score=$(( ${score} + ${points} ))
+      ;;
   esac
 }
 
